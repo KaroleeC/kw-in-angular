@@ -1,10 +1,25 @@
-.header {
-  border-bottom: 3px solid #ff0000;
+.app-nav {
   width: 100%;
+  // padding: 0 5% 0 5%;
+  // position: fixed;
+  .header {
+    border-bottom: 3px solid rgb(204, 51, 0);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .navLinks {
+      align-self: flex-end;
+    }
+  }
+
+  .prodLinks {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
-.links {
-  
-  display: flex;
-  justify-content: space-evenly;
+.shadow {
+  -webkit-box-shadow: 0 8px 6px -6px rgb(102, 100, 100);
+	   -moz-box-shadow: 0 8px 6px -6px rgb(102, 100, 100);
+	        box-shadow: 0 8px 6px -6px rgb(102, 100, 100);
 }

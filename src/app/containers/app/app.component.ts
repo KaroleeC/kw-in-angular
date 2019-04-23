@@ -3,8 +3,9 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
+  styleUrls: ['app.component.scss'],
   template: `
-    <div>
+    <div class="app">
       <app-nav>
       </app-nav>
       <div>
