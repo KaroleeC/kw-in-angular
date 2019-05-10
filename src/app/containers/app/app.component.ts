@@ -8,10 +8,8 @@ import { Router } from '@angular/router';
     <div class="app">
       <app-nav>
       </app-nav>
-      <div>
-        <router-outlet>
-        </router-outlet>
-      </div>
+      <router-outlet>
+      </router-outlet>
     </div>
   `
 })

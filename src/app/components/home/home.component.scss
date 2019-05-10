@@ -1,8 +1,72 @@
-.banner {
-  background: url('/img/flame.jpeg') no-repeat;
-  // background-size: contain;
-  color: white;
-  p {
-    text-align: center;
+@media (max-width: 714px) {
+
+  .home {
+    .products {
+      .brand {
+        .productList {
+          display: block;
+        }
+      }
+    }
   }
 }
+
+.home {
+  width: 100%;
+  hr {
+    margin-bottom: 30px;
+    border-bottom: 1px #999 solid;
+  }
+}
+.banner {
+  width: 100%;
+  height: 200px;
+  padding: 1rem 0 1rem 0;
+  margin-bottom: 15px;
+  background-image: url('/img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  h3 {
+    align-self: flex-end;
+    text-align: end;
+    margin-top: 12rem;
+    padding: 2px 2px 2px 2px;
+  }
+}
+
+.products {
+  width: 100%;
+  display: table;
+
+  .brand {
+    width: 100%;
+
+    .productList {
+      display: flex;
+      justify-content: space-evenly;
+
+    }
+  }
+
+  .productBtn {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px 0 15px 0;
+    padding: 10px 5px 10px 5px;
+    background-color: #e6e6e6;
+    color: #565656;
+    border: 1px solid #565656;
+    .arrow {
+      float: right;
+      margin: 0 2px 0 2px;
+    }
+  }
+  .productBtn:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+  }
+
+}
+
