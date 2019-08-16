@@ -12,18 +12,24 @@ import { Component } from '@angular/core';
         From the business partners who sell our products to the consumers who are using them, 
         our goal is to provide the best possible quality and service.
       </p>
-      <p>
+      <div>
         We can be reached at:
-        <span>
+        <br>
+        <div class="contact-info">
           K & W Manufacturing Co., Inc.
+          <br>
           23107 Temescal Canyon Road
+          <br>
           Corona, CA 92883
+          <br>
           951-277-3300 Phone
+          <br>
           951-277-2070 Fax
+          <br>
           info@k-and-w-mfg.com
-        </span>
-      </p>
-      <p>If you would like to request product information, please use our <a href>Information Request Form</a>.</p>
+        </div>
+      </div>
+      <p>If you would like to request product information, please use our <a href="/request">Information Request Form</a>.</p>
     </div>
   `
 })

@@ -15,10 +15,9 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
         </div>
       </div>
       <div class="prodLinks">
-        <a routerLink="fireMagic" routerLinkActive="active">FireMagic</a>
-        <a routerLink="flameBroil" routerLinkActive="active">Flame-Broil</a>
-        <a routerLink="more" routerLinkActive="active">More Products and Services</a>
-        <a routerLink="map" routerLinkActive="active">Site Map</a>
+        <a routerLink="fire-magic" routerLinkActive="active">FireMagic</a>
+        <a routerLink="flame-broil" routerLinkActive="active">Flame-Broil</a>
+        <a routerLink="more-products" routerLinkActive="active">More Products and Services</a>
       </div>
     </div>
   `

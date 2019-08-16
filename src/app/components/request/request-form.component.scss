@@ -1,0 +1,53 @@
+.wrapper {
+  padding: 5px;
+  border: 1px solid;
+  margin: 0 80px;
+} 
+
+.title {
+  text-align: center;
+}
+.request-form {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  border-top: 1px solid gray;
+  padding-top: 5px;
+}
+
+.question {
+  padding: 15px;
+  
+  select {
+    font-size: 15px;
+  }
+}
+
+.question-group {
+  display: flex;
+  justify-content: start;
+  padding: 15px 0;
+  label {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+.button-group {
+  text-align: center;
+  button {
+    min-width: 80px;
+    min-height: 30px;
+    border-radius: 7px;
+    margin: 15px;
+    font-size: medium;
+  }
+  .submit {
+    background: #51db2e;
+  }
+  .clear {
+    background: #FFA500;
+  }
+}

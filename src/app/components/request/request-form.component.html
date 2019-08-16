@@ -1,0 +1,83 @@
+<div class="wrapper">
+  <h1 class="title">Information Request Form</h1>
+  <form class="request-form">
+    <div class="question">
+      <label>
+        Please select the products you are interested in
+        <select>
+          <option *ngFor="let product of productList">
+            {{ product }}
+          </option>
+        </select>
+      </label>
+    </div>
+    <div class="question">
+      <label>
+        Please select the type(s) of information you would like to receive
+        <select>
+          <option *ngFor="let info of infoList">
+            {{ info }}
+          </option>
+        </select>
+      </label>
+    </div>
+    <hr>
+    <div class="question-group">
+      <label>
+        Name:
+        <input placeholder="Name" />
+      </label>
+      <label>
+        Title:
+        <input placeholder="Title" />
+      </label>
+    </div>
+
+    <label class="question">
+      Organization:
+      <input placeholder="Organization" />
+    </label>
+    <label class="question">
+      Email:
+      <input placeholder="Email" />
+    </label>
+    <h3 class="title"> Address </h3>
+
+    <hr>
+    <div class="question-group">
+      <label>
+        Street Address:
+        <input />
+      </label>
+      <label>
+        City:
+        <input />
+      </label>
+      <label>
+        State
+        <input />
+      </label>
+      <label>
+        Zip
+        <input />
+      </label>
+    </div>
+    <label class="question">
+      Phone
+      <input />
+    </label>
+    <label class="question">
+      Fax
+      <input />
+    </label>
+  </form>
+  <hr>
+  <div class="button-group">
+    <button class="submit">
+      Submit
+    </button>
+    <button class="clear">
+      Clear
+    </button>
+  </div>
+</div>
