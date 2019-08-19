@@ -43,9 +43,7 @@ export const ROUTES: Routes = [
     FlameBroilComponent,
     MoreProductsComponent,
   ],
-  providers: [
-
-  ],
+  providers: [],
   bootstrap: [
     AppComponent
   ]

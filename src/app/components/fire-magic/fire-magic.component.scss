@@ -1,0 +1,28 @@
+.products {
+  display: flex;
+}
+
+.img-container {
+  border: 1px solid #ccc;
+  padding: 25px;
+
+}
+.data-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.heat-circulator {
+  height: 196px;
+  width: 180px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
